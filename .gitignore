@@ -1,0 +1,22 @@
+# Simulator build outputs - never commit these
+simv
+simv_*
+*.vcd
+*.vpd
+*.daidir/
+csrc/
+ucli.key
+vc_hdrs.h
+
+# Icarus Verilog outputs (if used locally)
+*.vvp
+*.out
+
+# Editor / OS clutter
+.vscode/
+Thumbs.db
+.DS_Store
+*~
+
+# Scratch files
+pdf_content.txt
